@@ -4,6 +4,9 @@
 
 ## Integrantes
 
+### Juan Barragan-
+### Julian Montaño
+### Jesus Bojaca
 
 ## Documentación
 
@@ -11,3 +14,8 @@
 
 
 ## Conclusiones
+-Se logró instalar y configurar correctamente Node-RED en la Raspberry Pi, comprobando que puede ejecutarse tanto manualmente como automáticamente al iniciar el sistema.
+-El uso de una conexión SSH desde la terminal resultó más eficiente que trabajar mediante entornos remotos gráficos, ya que redujo el consumo de recursos durante la instalación.
+-El Dashboard de Node-RED facilitó la creación de una interfaz gráfica sencilla sin necesidad de programar páginas web manualmente.
+-El flujo implementado permitió comprender la lógica de conexión entre nodos y el procesamiento de mensajes dentro de Node-RED.
+-Los nodos debug y write file fueron útiles para verificar el correcto funcionamiento del flujo y almacenar la información generada.
