@@ -16,9 +16,31 @@ Inicialmente se realizó la conexión desde la terminal del computador hacia la 
 
 
 Node.js
+
 npm
+
 Node-RED
+
 Nodos específicos para Raspberry Pi
+
+Posteriormente se verificó el funcionamiento de Node-RED ejecutándolo manualmente con el comando:
+
+
+node-red-pi --max-old-space-size=256
+
+Dentro de la interfaz se instaló el complemento Dashboard, el cual permite crear interfaces gráficas interactivas para el usuario.
+
+Para la implementación del flujo se utilizaron los siguientes nodos:
+
+-color picker
+
+-text input
+
+-function
+
+-debug
+
+-write file
 
 ## Conclusiones
 -Se logró instalar y configurar correctamente Node-RED en la Raspberry Pi, comprobando que puede ejecutarse tanto manualmente como automáticamente al iniciar el sistema. 
