@@ -10,8 +10,15 @@
 
 ## Documentación
 
-<!-- Incluir diagramas y adjuntar al repositorio, en una carpeta src, el flujo que crearon -->
+El desarrollo del taller consistió en instalar y configurar Node-RED sobre una Raspberry Pi utilizando una conexión remota por SSH.
 
+Inicialmente se realizó la conexión desde la terminal del computador hacia la Raspberry Pi mediante el protocolo SSH, evitando el uso de entornos gráficos remotos debido al mayor consumo de memoria y procesador. Una vez establecida la conexión, se ejecutó el script oficial de instalación de Node-RED, el cual instaló automáticamente:
+
+
+Node.js
+npm
+Node-RED
+Nodos específicos para Raspberry Pi
 
 ## Conclusiones
 -Se logró instalar y configurar correctamente Node-RED en la Raspberry Pi, comprobando que puede ejecutarse tanto manualmente como automáticamente al iniciar el sistema. 
